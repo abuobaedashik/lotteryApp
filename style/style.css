@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.lottery-card {
+    background-color: #FFD700; /* Gold background for lottery card */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lottery-card h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.lottery-card p {
+    color: #555;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.lottery-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.lottery-button:hover {
+    background-color: #45a049;
+}
